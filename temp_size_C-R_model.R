@@ -49,39 +49,57 @@ aT <- a0*sqrt(( v0C^2 * exp(-2*EvC/k*TC) + v0R^2 * exp(-2*EvR/k*TR ))) # depende
 
 ## mass-dependent parameters ----
 # from DeLong et al. 2015, Am. Nat.
-rM <- r0*Mr^s.r 
-KM <- K0*Mr^s.K
-aM <- a0*Mc^s.a
-eM <- e0*Mc^s.e
+rM <- r0*MR^s.r 
+KM <- K0*MR^s.K
+aM <- a0*MC^s.a
+eM <- e0*MC^s.e
 
 ## effects of temperature on average adult body size ----
-Mr # need this function
-Mc # need this function 
+# don't know if it is accurate that I want to be calculating the change in temperature because I don't have the change in temperature anywhere else in the model...
+# need help writing this function
+MR <- M0R + bR*M0R*(TR - T0R) # function needs to be fine tuned. (TR - T0R) describes change in temperature; M0R is baseline adult body size; bR is the slope of the relationship between adult body size and temperature
+MC <- M0C + bC*M0C*(TC - T0C) # function needs to be fine tuned, see above notes.
 
 ## combining temperature- and mass-dependent parameters ----
-rMT <- r0*(Mr^s.r)*exp(-EB/k*TR)
-KMT <- K0*(Mr^s.K)*exp(EB/k*TR - ES/k*TS)
-aMT <- a0*(Mc^s.a)*exp(-Em/k*TC)
+rMT <- r0*(MR^s.r)*exp(-EB/k*TR)
+KMT <- K0*(MR^s.K)*exp(EB/k*TR - ES/k*TS)
+aMT <- a0*(MC^s.a)*exp(-Em/k*TC)
 eM # no appartent direct effect of temperature...but now, it appears there could be an indirect effect of temperature mediated by changes in body size
 
 ## temperature-independent parameters ----
+## base parameters
+r0 <- 2 # intrinsic growth rate; From Gilbert et al. 2014, Fig. 3 legend
+e0 <- 0.15 # conversion efficiency; From Gilbert et al. 2014, Fig. 3 legend
+K0 <- 100 # carrying capacity; From Gilbert et al. 2014, Fig. 3 legend
+a0 <- 0.1 # attack rate; From Gilbert et al. 2014, Fig. 3 legend 
+m0 <- 0.6 # mortality rate; From Gilbert et al. 2014, Fig. 3 legend
+
 ## activation energies
-EB <- 0.65 # activation energy of the metabolic rate; EB = 0.53 - 0.85 Savage et al. 2004, diverse ectotherms
+EB <- 0.32 # activation energy of the metabolic rate; EB = 0.53 - 0.85 Savage et al. 2004, diverse ectotherms; exact value from Gilbert et al. 2014, Fig. 3 legend
 Em <- 0.65 # activation energy of mortality rate; Em = 0.65 Dell et al. 2011 across diverse taxa; Em = 0.45 Savage et al. 2004 for fish
-ES <- 0.65 # activation energy of nutrient supply, just set to 0.65 because I don't know of possible values
-EvC # activation energy of consumer velocity
-EvR # activation energy of resource velocity
+ES <- 0.9 # activation energy of nutrient supply. From Gilbert et al. 2014, Fig. 3 legend
+EvC <- 0.46 # activation energy of consumer velocity. 0.46 corresponds to the mean activatiaion energy for body velocity across diverse taxa and trophic groups Dell et al. 2014, J. Animal Ecology.
+EvR <- 0.46 # activation energy of resource velocity. 0.46 corresponds to the mean activatiaion energy for body velocity across diverse taxa and trophic groups Dell et al. 2014, J. Animal Ecology.
 
-## other parameters
-v0C # consumer body velocity
-v0R # resource body velocity
+## other parameters. Note that if body velocities for consumers and resources are about equal, then this represents an active-capture foraging strategy.
+v0C <- 1 # consumer body velocity. arbitratily set to 1
+v0R <- 1 # resource body velocity. arbitrarily set to 1
 k <- 8.62*10^-5 # Boltzmann's constant in eV/K, where K is temperature in Kelvin
-TR # body temperature of resource in Kelvin
-TC # body temperature of consumer in Kelvin
-TS # temperature of supply rate? in Kelvin
 
-## exponents for mass-scaling
-s.r # mass-scaling for intrinsic growth rate
-s.K # mass-scaling for carrying capacity
-s.a # mass-scaling for attack rate
-s.e # mass-scaling for conversion efficiency
+## temperatures. assuming they are all the same for right now
+TR <- 15 # body temperature of resource in C, but don't I need it in Kelvin to be consistent with Boltmann's constant
+TC <- TR # body temperature of consumer in C
+TS <- TC <- TR # temperature of supply rate? in C
+
+## exponents for mass-scaling. From DeLong et al. 2015, Am. Nat. Table 1 which was for a protist consumer and algae resource
+s.r <- -0.2 # mass-scaling for intrinsic growth rate
+s.K <- -0.81 # mass-scaling for carrying capacity
+s.a <- 1 # mass-scaling for attack rate
+s.e <- -0.50 # mass-scaling for conversion efficiency
+s.m <- -0.29 # mass-scaling for mortality rate
+
+## parameters for calculating changes in size due to increasing temperature.
+bR # 
+bC #
+M0R #
+M0C #
