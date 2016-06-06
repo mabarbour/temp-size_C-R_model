@@ -1,0 +1,89 @@
+\documentclass[letter,12pt]{article}
+\usepackage{fontenc}
+\usepackage[english]{babel}
+
+\usepackage{fullpage}
+\usepackage{amsmath,amssymb}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
+\bibliographystyle{plain}
+
+\title{The temperature-size rule may stabilise consumer-resource dynamics under warming}
+\date{\today}
+\author{UBC MST group}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Keywords:} Metabolic theory, predator-prey, plant-herbivore, body size
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+Temperature and body size determine many biological rates \cite{West1997,Gillooly2001}.
+How these factors individually influence consumer-resource dynamics has already been demonstrated \cite{Gilbert2014,DeLong2015}.
+How they act in symphony has not yet been investigated.
+
+Temperature also affects body size through the temperature-size rule \cite{Atkinson1994}.
+Thus, temperature directly and indirectly affects ecosystem dynamics.
+These two pathways have the potential to reinforce or counteract one another, with population level consequences.
+
+Here we model a simple consumer-resource interaction, with population dynamic parameters that depend on temperature and body size, and body sizes that depend on temperature.
+We ask how including dependencies on both temperature and body size, as well as incorporating the temperature-size rule, affects the response of the consumer-resource dynamics to increasing temperature.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Methods and results}
+
+\subsection{The underlying consumer-resource dynamics}
+
+We begin, like \cite{Gilbert2014}, with the Rosenzweig-MacArthur equations \cite{Rosenzweig1963}
+\begin{equation}\label{eq:RM}
+\begin{aligned}
+\frac{\mathrm{d}R}{\mathrm{d}t} =& r R \left(1 - \frac{R}{K} \right) - f(R) C\\
+\frac{\mathrm{d}C}{\mathrm{d}t} =& e f(R) C - m C,
+\end{aligned}
+\end{equation}
+which describe the rates of change in total resource $R\in[0,K]$ and consumer $C\geq0$ biomass with time $t$.
+
+In the absence of consumers, $C=0$, the resource grows logistically, with intrinsic growth rate $r\geq0$ and carrying capacity $K>0$.
+The intrinsic growth rate describes the rate at which resource biomass increases without consumers when the resource is rare, $R\approx0$.
+The carrying capacity is the equilibrium biomass of the resource without consumers.
+
+Resource biomass is consumed by consumers at a rate $f(R)$, where $f(R)\geq0$ is called the functional response.
+Of the biomass consumed, the unitless conversion efficiency parameter $e\in[0,1]$ determines the proportion of resource biomass that is directly converted into consumer biomass.
+Consumers die at constant per capita mortality rate $m\geq0$.
+
+An equilibrium is reached when the two rates of change in Equation \eqref{eq:RM} are zero, and solving the system at this point gives equilibrium resource $\hat{R}$ and consumer $\hat{C}$ biomass.
+There are three equilibria for this system: total extinction $(R,C) = (0,0)$, consumer extinction $(R,C)=(K,0)$, and coexistence $(R,C)=(\hat{R},\hat{C})$, the latter with $\hat{R}>0$ and $\hat{C}>0$.
+We are primarily concerned with the latter equilibrium, as that is presumably the equilibrium current consumer-resource systems are near.
+At this coexistence equilibrium one can calculate the ratio of consumer to resource biomass, $\hat{C}/\hat{R}$, and also perform a linear stability analysis to derive the leading eigenvalue $\lambda$, which determines if (and how readily) the system, when perturbed a small amount from this equilibrium, will return to it (see the supplementary \texttt{Mathematica} file for details).
+Together these two measures tell us how biomass is partitioned and how stable this partitioning is.
+
+As explained in \cite{Gilbert2014}, two aggregates well describe the dynamics of this system.
+The first is $m R/(e f(R))$, which describes consumer growth and is the consumer zero-net growth isocline.
+The second aggregate is $K$, the equilibrium resource biomass in the absence of consumers.
+Dividing the second aggregate by the first gives a measure that defines the biomass potential of the resource that is converted into consumer biomass, $B_{CR} = e f(R) K / (R m)$.
+Note that we have modified the presentation of \cite{Gilbert2014} by subsuming $R$ into $f(R)$ such that $f(R)$ is  a rate and thus more easily interpreted.
+This does not alter the results.
+
+In what follows we will examine how our three measures, $B_{CR}$, $\hat{C}/\hat{R}$, and $\lambda$, change with temperature.
+
+\subsection{Temperature dependence}
+
+
+
+\subsection{Mass dependence}
+
+\subsection{The temperature-size rule}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliography{BIB/library}
+
+\end{document}
