@@ -87,7 +87,7 @@ We start by assuming a type-I functional response, $f(R) = a$, where $a$ is call
 We later explore the effect of a type-II functional response and the potential for the functional response to change with temperature.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Temperature dependence}
+\subsection{Adding temperature dependence}
 
 Gilbert \textit{et al.} \cite{Gilbert2014} discuss what is known about the temperature dependencies of $r$, $K$, $a$, $m$, and $e$, and give equations and parameter estimates in their Table 1.
 Briefly, resource growth rate $r$ is expected to scale with metabolism as a Boltzmann-Arrhenius factor, $r(T) = r_0 \exp(-E_B/(kT))$, where $E_B$ is the activation energy of the metabolism $B$ (in units of eV), $k$ is Boltzmann's constant ($\approx 8.62 \times 10^{-5}$ eV/K), and $T$ is the temperature (in Kelvins).
@@ -117,7 +117,7 @@ These changes are largely driven by the temperature dependence of consumer morta
 %\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Mass dependence and the temperature size-rule}
+\subsection{Adding mass dependence and the temperature size-rule}
 
 We next allow the population dynamic parameters to depend on the body size of the interacting species.
 Following \cite{DeLong2015}, each parameter can be written as a power law function of the body mass of resource $M_R$ or consumer $M_C$.
@@ -152,7 +152,7 @@ Other parameters as in \cite{Gilbert2014,DeLong2015}: $E_B = 0.32$ (solid dark),
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Asymmetric temperature-size responses}
+\subsection{Exploring asymmetric temperature-size responses}
 
 In Figure \ref{AllTempMassDep} we assumed both resource and consumer body mass declined with temperature at the same rate, $\beta_C = \beta_R = 0.02$, i.e., both decline $2\%$ per degree increase.
 However, larger organisms often experience larger declines in body size with temperature \cite{Forster2012}.
@@ -160,29 +160,80 @@ However, larger organisms often experience larger declines in body size with tem
 In the supplementary \texttt{Mathematica} file we let consumer body size decline twice as fast as the resource, $2 \beta_R = \beta_C = 0.04$.
 The main effect of the asymmetric temperature-size response is that i) the $B_{CR}$ with $E_S > E_B$ now asymptotes at higher temperatures (compare with the dark solid curves in Figure \ref{AllTempMassDep}) and ii) stability now increases even faster with increasing temperature.
 
-%\begin{figure}[!ht]
-%\centering
-%\includegraphics[width=0.5\linewidth]{BCRAllTempMassDepAsymm}
-%\includegraphics[width=0.5\linewidth]{CtoRAllTempMassDepAsymm}
-%\includegraphics[width=0.5\linewidth]{StabilityAllTempMassDepAsymm}
-%\caption{
-%$B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius) with (red) and without (black) mass dependencies and the temperature-size rule.
-%Rate-constants (e.g., $r_0$) were chosen to make $r = 2$, $K = 100$, $a = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ (as in \cite{Gilbert2014}).
-%Other parameters as in \cite{Gilbert2014,DeLong2015}: $E_B = 0.32$ (solid dark), $E_B = 0.9$ (dashed and solid light), $E_S = 0.9$ (solid), $E_S = 0.32$ (dashed), $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $\beta_R = 0.02$ and $\beta_C = 0.04$ (red), $\beta_i = 0$ (black).  
-%}
-%\label{AllTempMassDepAsymm}
-%\end{figure}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\linewidth]{BCRAllTempMassDepAsymm}
+\includegraphics[width=0.5\linewidth]{CtoRAllTempMassDepAsymm}
+\includegraphics[width=0.5\linewidth]{StabilityAllTempMassDepAsymm}
+\caption{
+SUPPLEMENTARY FIGURE.
+$B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius) with (red) and without (black) mass dependencies and the temperature-size rule.
+Rate-constants (e.g., $r_0$) were chosen to make $r = 2$, $K = 100$, $a = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ (as in \cite{Gilbert2014}).
+Other parameters as in \cite{Gilbert2014,DeLong2015}: $E_B = 0.32$ (solid dark), $E_B = 0.9$ (dashed and solid light), $E_S = 0.9$ (solid), $E_S = 0.32$ (dashed), $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $\beta_R = 0.02$ and $\beta_C = 0.04$ (red), $\beta_i = 0$ (black).  
+}
+\label{AllTempMassDepAsymm}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Type-II functional response}
 
-The consumption of resources in some systems may be better described by a type-II functional response, $f(R) = b / (1 + b h R)$, where $b$ is sometimes called the capture rate (per resource biomass, per consumer biomass rate of resource biomass consumption) and $h$ is the handling time.
+The consumption of resources in some systems may be better described by a type-II functional response, $f(R) = b / (1 + b h R)$, where $b$ is sometimes called the capture rate (per resource biomass per consumer biomass rate of resource biomass consumption) and $h$ is the handling time.
 This collapses to a type-I functional response at low resource biomass, $f(R) \approx b$ for $R << 1/(b h)$.
-At high resource biomass however, the type-II functional response implies that the rate of resource consumption per consumer biomass asymptotes at $\lim_{R\rightarrow\infty}f(R) R = 1/h$, describing satiation of the consumer.
+And at high resource biomass a type-II functional response implies that the rate of resource consumption per consumer biomass asymptotes at $\lim_{R\rightarrow\infty}f(R) R = 1/h$, describing satiation of the consumer.
 
 Both capture rate and handling time are known to depend on temperature and body mass.
 In particular, capture rate scales like $b(T, M_R, M_C) = b_0 M_R^{b_R} M_C^{b_C} \exp(-E_b/(k T))$ and handling time like $h(T, M_R, M_C) = h_0 M_R^{h_R} M_C^{h_C} \exp(-E_h/(k T))$ \cite{Rall2012}.
 Using these dependencies and the parameter values in \cite{Rall2012} we can again plot $B_{CR}$, $\hat{C}:\hat{R}$, and stability as functions of temperature, this time with a type-II functional response.
+We do this in the supplementary \texttt{Mathematica} file.
+The main conclusions are: in comparison to a type-I functional response, a type-II functional response i) makes the $B_{CR}$ slopes more positive (increasing the response temperature when $E_S > E_B$), ii) makes equilibrium biomass ratios increase with temperature, and iii) makes stability increase more quickly with temperature.
+
+As an aside, in this analysis we set $b_0$ to give $f(R) = 0.1$ at 15$^\circ C$, to remain consistent with \cite{Gilbert2014}.
+This leaves $h_0$ as a free parameter. 
+However, this free parameter only influences the results in the case of stability.
+When $h_0$ is small enough to allow a stable coexistence equilibrium ($h_0 < 1\approx 0^{-12}$) we find that stability increases exponentially with temperature (see supplementary \texttt{Mathematica} for details).
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\linewidth]{BCRTypeII}
+\includegraphics[width=0.5\linewidth]{CtoRTypeII}
+\includegraphics[width=0.5\linewidth]{StabilityTypeII}
+\caption{
+SUPPLEMENTARY FIGURE.
+$B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius) with (red and blue) and without (black) mass dependencies and the temperature-size rule.
+Type-II functional response in blue.
+Rate-constants (e.g., $r_0$) were chosen to make $r = 2$, $K = 100$, $f(R) = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ (as in \cite{Gilbert2014}).
+Other parameters as in \cite{Gilbert2014,DeLong2015,Rall2012}: $E_B = 0.32$ (solid dark), $E_B = 0.9$ (dashed and solid light), $E_S = 0.9$ (solid), $E_S = 0.32$ (dashed), $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $\beta_i = 0.02$ (red and blue), $\beta_i = 0$ (black), $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$, $h_0 = 10^{-13}$.  
+}
+\label{TypeII}
+\end{figure}
+
+\cite{Rall2012} complied a large database on capture rates and handling times and compared the data to their theoretical predictions.
+They were surprised to find capture rate and handling time responded less strongly to temperature than expected (see their Figure 2a,d).
+Interestingly, we found that the temperature-size rule reduces the sensitivity of both capture rate and handling time to temperature, and hence may explain the discrepancies observed between data and theory in \cite{Rall2012}. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\linewidth]{CaptureTSRAsymm}
+\includegraphics[width=0.5\linewidth]{HandlingTSRAsymm}
+\caption{
+SUPPLEMENTARY FIGURE.
+The sensitivity of capture rate and handling time to temperature with (blue) and without (black) the temperature-size rule.
+Plotted are (A) $\log(b/b0)$ and (B) $\log(h/h0)$.
+Parameters as in \cite{Rall2012}: $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$.
+}
+\label{TypeII}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{A functional response that depends on the body size ratio}
+
+The functional response tends to be more type-II when consumers and resources have similar body sizes, but becomes more sigmoidal and hence more type-III when consumers are much bigger than their resource, as resources are then better able to hide when rare \cite{Kalinkat2013}.
+Without the temperature-size rule, the body mass ratio remains constant with temperature, and therefore the form of the functional response is not expect to change.
+However, with the temperature-size rule body sizes change.
+When the temperature-size responses are asymmetric, the ratio of body sizes will change and influence the form of the functional response.
+Because consumers are often larger than their resource, and because larger organisms are expected to have greater reductions in body size with temperature, the ratio of consumer to resource body size will often decrease with temperature.
+As stated above, lower consumer to resource body size ratios produce functional responses more like type-II, which are less stable than type-III functional responses, and hence the temperature-size rule can be said to destabilize the consumer-resource dynamics at high temperatures through this mechanism (and stabilize the dynamics at lower temperatures).
+However, the amount by which the shape of the functional response is adjusted by the temperature-size rule does not appear to be large and therefore the stabilizing effects discussed in previous sections will likely prevail (see supplementary \texttt{Mathematica} file for details). 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
