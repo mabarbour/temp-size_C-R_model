@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 JUN 2016 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 JUN 2016 11:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,229 +352,103 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Package epstopdf Info: Source file: <IMAGES/BCRAllTempDep.eps>
-(epstopdf)                    date: 2016-06-06 13:30:11
-(epstopdf)                    size: 19896 bytes
-(epstopdf)             Output file: <./IMAGES/BCRAllTempDep-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2016-06-06 13:32:52
-(epstopdf)                    size: 8757 bytes
-(epstopdf)             Command: <repstopdf --outfile=./IMAGES/BCRAllTempDep-eps
--converted-to.pdf IMAGES/BCRAllTempDep.eps>
-(epstopdf)             \includegraphics on input line 108.
-Package epstopdf Info: Output file is already uptodate.
-
-<./IMAGES/BCRAllTempDep-eps-converted-to.pdf, id=84, 652.4375pt x 412.54124pt>
-File: ./IMAGES/BCRAllTempDep-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./IMAGES/BCRAllTempDep-eps-converted-to.pdf>
-Package pdftex.def Info: ./IMAGES/BCRAllTempDep-eps-converted-to.pdf used on in
-put line 108.
-(pdftex.def)             Requested size: 234.8775pt x 148.51472pt.
-Package epstopdf Info: Source file: <IMAGES/CtoRAllTempDep.eps>
-(epstopdf)                    date: 2016-06-06 14:27:49
-(epstopdf)                    size: 83821 bytes
-(epstopdf)             Output file: <./IMAGES/CtoRAllTempDep-eps-converted-to.p
-df>
-(epstopdf)                    date: 2016-06-06 14:28:00
-(epstopdf)                    size: 10767 bytes
-(epstopdf)             Command: <repstopdf --outfile=./IMAGES/CtoRAllTempDep-ep
-s-converted-to.pdf IMAGES/CtoRAllTempDep.eps>
-(epstopdf)             \includegraphics on input line 109.
-Package epstopdf Info: Output file is already uptodate.
-
-<./IMAGES/CtoRAllTempDep-eps-converted-to.pdf, id=85, 652.4375pt x 412.54124pt>
-File: ./IMAGES/CtoRAllTempDep-eps-converted-to.pdf Graphic file (type pdf)
-<use ./IMAGES/CtoRAllTempDep-eps-converted-to.pdf>
-Package pdftex.def Info: ./IMAGES/CtoRAllTempDep-eps-converted-to.pdf used on i
-nput line 109.
-(pdftex.def)             Requested size: 234.8775pt x 148.51472pt.
-Package epstopdf Info: Source file: <IMAGES/StabilityAllTempDep.eps>
-(epstopdf)                    date: 2016-06-06 15:51:29
-(epstopdf)                    size: 76957 bytes
-(epstopdf)             Output file: <./IMAGES/StabilityAllTempDep-eps-converted
--to.pdf>
-(epstopdf)                    date: 2016-06-06 15:51:33
-(epstopdf)                    size: 10627 bytes
-(epstopdf)             Command: <repstopdf --outfile=./IMAGES/StabilityAllTempD
-ep-eps-converted-to.pdf IMAGES/StabilityAllTempDep.eps>
-(epstopdf)             \includegraphics on input line 110.
-Package epstopdf Info: Output file is already uptodate.
-
-<./IMAGES/StabilityAllTempDep-eps-converted-to.pdf, id=86, 652.4375pt x 412.541
-24pt>
-File: ./IMAGES/StabilityAllTempDep-eps-converted-to.pdf Graphic file (type pdf)
-
- <use ./IMAGES/StabilityAllTempDep-eps-converted-to.pdf>
-Package pdftex.def Info: ./IMAGES/StabilityAllTempDep-eps-converted-to.pdf used
- on input line 110.
-(pdftex.def)             Requested size: 234.8775pt x 148.51472pt.
- [3] [4 <./IMAGES/BCRAllTempDep-eps-converted-to.pdf> <./IMAGES/CtoRAllTempDep-
-eps-converted-to.pdf> <./IMAGES/StabilityAllTempDep-eps-converted-to.pdf>]
-Overfull \hbox (14.82745pt too wide) in paragraph at lines 135--142
-[]\OT1/cmr/m/n/12 Figure [][]2[][] is our main re-sult, which shows how adding 
-mass de-pen-den-cies and the temperature-
- []
-
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 Package epstopdf Info: Source file: <IMAGES/BCRAllTempMassDep.eps>
-(epstopdf)                    date: 2016-06-06 14:23:19
-(epstopdf)                    size: 24053 bytes
+(epstopdf)                    date: 2016-06-07 07:46:35
+(epstopdf)                    size: 24054 bytes
 (epstopdf)             Output file: <./IMAGES/BCRAllTempMassDep-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2016-06-06 14:24:04
+(epstopdf)                    date: 2016-06-07 07:57:24
 (epstopdf)                    size: 10090 bytes
 (epstopdf)             Command: <repstopdf --outfile=./IMAGES/BCRAllTempMassDep
 -eps-converted-to.pdf IMAGES/BCRAllTempMassDep.eps>
-(epstopdf)             \includegraphics on input line 145.
+(epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<./IMAGES/BCRAllTempMassDep-eps-converted-to.pdf, id=144, 652.4375pt x 412.5412
-4pt>
+<./IMAGES/BCRAllTempMassDep-eps-converted-to.pdf, id=97, 652.4375pt x 412.54124
+pt>
 File: ./IMAGES/BCRAllTempMassDep-eps-converted-to.pdf Graphic file (type pdf)
  <use ./IMAGES/BCRAllTempMassDep-eps-converted-to.pdf>
 Package pdftex.def Info: ./IMAGES/BCRAllTempMassDep-eps-converted-to.pdf used o
-n input line 145.
+n input line 143.
 (pdftex.def)             Requested size: 234.8775pt x 148.51472pt.
 Package epstopdf Info: Source file: <IMAGES/CtoRAllTempMassDep.eps>
-(epstopdf)                    date: 2016-06-06 14:22:27
-(epstopdf)                    size: 88494 bytes
+(epstopdf)                    date: 2016-06-07 07:47:41
+(epstopdf)                    size: 88495 bytes
 (epstopdf)             Output file: <./IMAGES/CtoRAllTempMassDep-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2016-06-06 14:24:04
+(epstopdf)                    date: 2016-06-07 07:57:24
 (epstopdf)                    size: 12445 bytes
 (epstopdf)             Command: <repstopdf --outfile=./IMAGES/CtoRAllTempMassDe
 p-eps-converted-to.pdf IMAGES/CtoRAllTempMassDep.eps>
-(epstopdf)             \includegraphics on input line 146.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
-<./IMAGES/CtoRAllTempMassDep-eps-converted-to.pdf, id=145, 652.4375pt x 412.541
-24pt>
+<./IMAGES/CtoRAllTempMassDep-eps-converted-to.pdf, id=98, 652.4375pt x 412.5412
+4pt>
 File: ./IMAGES/CtoRAllTempMassDep-eps-converted-to.pdf Graphic file (type pdf)
  <use ./IMAGES/CtoRAllTempMassDep-eps-converted-to.pdf>
 Package pdftex.def Info: ./IMAGES/CtoRAllTempMassDep-eps-converted-to.pdf used 
-on input line 146.
+on input line 144.
 (pdftex.def)             Requested size: 234.8775pt x 148.51472pt.
 Package epstopdf Info: Source file: <IMAGES/StabilityAllTempMassDep.eps>
-(epstopdf)                    date: 2016-06-06 15:51:23
-(epstopdf)                    size: 80047 bytes
+(epstopdf)                    date: 2016-06-07 07:50:12
+(epstopdf)                    size: 79086 bytes
 (epstopdf)             Output file: <./IMAGES/StabilityAllTempMassDep-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2016-06-06 15:51:34
-(epstopdf)                    size: 11700 bytes
+(epstopdf)                    date: 2016-06-07 07:57:25
+(epstopdf)                    size: 11515 bytes
 (epstopdf)             Command: <repstopdf --outfile=./IMAGES/StabilityAllTempM
 assDep-eps-converted-to.pdf IMAGES/StabilityAllTempMassDep.eps>
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 145.
 Package epstopdf Info: Output file is already uptodate.
 
-<./IMAGES/StabilityAllTempMassDep-eps-converted-to.pdf, id=146, 652.4375pt x 41
-2.54124pt>
+<./IMAGES/StabilityAllTempMassDep-eps-converted-to.pdf, id=99, 652.4375pt x 412
+.54124pt>
 File: ./IMAGES/StabilityAllTempMassDep-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use ./IMAGES/StabilityAllTempMassDep-eps-converted-to.pdf>
 Package pdftex.def Info: ./IMAGES/StabilityAllTempMassDep-eps-converted-to.pdf 
-used on input line 147.
+used on input line 145.
 (pdftex.def)             Requested size: 234.8775pt x 148.51472pt.
-Package epstopdf Info: Source file: <IMAGES/BCRAllTempMassDepAsymm.eps>
-(epstopdf)                    date: 2016-06-06 16:51:13
-(epstopdf)                    size: 26549 bytes
-(epstopdf)             Output file: <./IMAGES/BCRAllTempMassDepAsymm-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2016-06-06 16:52:38
-(epstopdf)                    size: 11061 bytes
-(epstopdf)             Command: <repstopdf --outfile=./IMAGES/BCRAllTempMassDep
-Asymm-eps-converted-to.pdf IMAGES/BCRAllTempMassDepAsymm.eps>
-(epstopdf)             \includegraphics on input line 166.
-Package epstopdf Info: Output file is already uptodate.
-
-<./IMAGES/BCRAllTempMassDepAsymm-eps-converted-to.pdf, id=157, 652.4375pt x 412
-.54124pt>
-File: ./IMAGES/BCRAllTempMassDepAsymm-eps-converted-to.pdf Graphic file (type p
-df)
- <use ./IMAGES/BCRAllTempMassDepAsymm-eps-converted-to.pdf>
-Package pdftex.def Info: ./IMAGES/BCRAllTempMassDepAsymm-eps-converted-to.pdf u
-sed on input line 166.
-(pdftex.def)             Requested size: 234.8775pt x 148.51472pt.
-Package epstopdf Info: Source file: <IMAGES/CtoRAllTempMassDepAsymm.eps>
-(epstopdf)                    date: 2016-06-06 16:51:24
-(epstopdf)                    size: 89215 bytes
-(epstopdf)             Output file: <./IMAGES/CtoRAllTempMassDepAsymm-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2016-06-06 16:52:38
-(epstopdf)                    size: 12716 bytes
-(epstopdf)             Command: <repstopdf --outfile=./IMAGES/CtoRAllTempMassDe
-pAsymm-eps-converted-to.pdf IMAGES/CtoRAllTempMassDepAsymm.eps>
-(epstopdf)             \includegraphics on input line 167.
-Package epstopdf Info: Output file is already uptodate.
-
-<./IMAGES/CtoRAllTempMassDepAsymm-eps-converted-to.pdf, id=158, 652.4375pt x 41
-2.54124pt>
-File: ./IMAGES/CtoRAllTempMassDepAsymm-eps-converted-to.pdf Graphic file (type 
-pdf)
- <use ./IMAGES/CtoRAllTempMassDepAsymm-eps-converted-to.pdf>
-Package pdftex.def Info: ./IMAGES/CtoRAllTempMassDepAsymm-eps-converted-to.pdf 
-used on input line 167.
-(pdftex.def)             Requested size: 234.8775pt x 148.51472pt.
-Package epstopdf Info: Source file: <IMAGES/StabilityAllTempMassDepAsymm.eps>
-(epstopdf)                    date: 2016-06-06 16:51:29
-(epstopdf)                    size: 79867 bytes
-(epstopdf)             Output file: <./IMAGES/StabilityAllTempMassDepAsymm-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2016-06-06 16:52:39
-(epstopdf)                    size: 11724 bytes
-(epstopdf)             Command: <repstopdf --outfile=./IMAGES/StabilityAllTempM
-assDepAsymm-eps-converted-to.pdf IMAGES/StabilityAllTempMassDepAsymm.eps>
-(epstopdf)             \includegraphics on input line 168.
-Package epstopdf Info: Output file is already uptodate.
-
-<./IMAGES/StabilityAllTempMassDepAsymm-eps-converted-to.pdf, id=159, 652.4375pt
- x 412.54124pt>
-File: ./IMAGES/StabilityAllTempMassDepAsymm-eps-converted-to.pdf Graphic file (
-type pdf)
-
-<use ./IMAGES/StabilityAllTempMassDepAsymm-eps-converted-to.pdf>
-Package pdftex.def Info: ./IMAGES/StabilityAllTempMassDepAsymm-eps-converted-to
-.pdf used on input line 168.
-(pdftex.def)             Requested size: 234.8775pt x 148.51472pt.
-
-(./ExpandingGilbert.bbl [5] [6 <./IMAGES/BCRAllTempMassDep-eps-converted-to.pdf
-> <./IMAGES/CtoRAllTempMassDep-eps-converted-to.pdf> <./IMAGES/StabilityAllTemp
-MassDep-eps-converted-to.pdf>] [7 <./IMAGES/BCRAllTempMassDepAsymm-eps-converte
-d-to.pdf> <./IMAGES/CtoRAllTempMassDepAsymm-eps-converted-to.pdf> <./IMAGES/Sta
-bilityAllTempMassDepAsymm-eps-converted-to.pdf>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
+ [4]
+[5 <./IMAGES/BCRAllTempMassDep-eps-converted-to.pdf> <./IMAGES/CtoRAllTempMassD
+ep-eps-converted-to.pdf> <./IMAGES/StabilityAllTempMassDep-eps-converted-to.pdf
+>] (./ExpandingGilbert.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (./ExpandingGilbert.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 Package rerunfilecheck Info: File `ExpandingGilbert.out' has not changed.
 (rerunfilecheck)             Checksum: C21F0AEE5E78F7F881BE688E82CFC273;563.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 6688 strings out of 493089
- 95989 string characters out of 6134842
- 188079 words of memory out of 5000000
- 10044 multiletter control sequences out of 15000+600000
+ 6654 strings out of 493089
+ 94498 string characters out of 6134842
+ 185870 words of memory out of 5000000
+ 10019 multiletter control sequences out of 15000+600000
  12919 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,8n,28p,943b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,28p,921b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on ExpandingGilbert.pdf (8 pages, 208618 bytes).
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on ExpandingGilbert.pdf (6 pages, 172730 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 31 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
