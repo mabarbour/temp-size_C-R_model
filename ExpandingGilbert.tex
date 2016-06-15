@@ -6,6 +6,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lineno}
 
+\usepackage[pdftex]{graphicx}
+\graphicspath{ {IMAGES/} }
+
 %%%%%%%%%%%%%%%%%%%%%
 % LaTeX packages
 %%%%%%%%%%%%%%%%%%%%%
@@ -223,6 +226,11 @@ The indirect effects of temperature are acting in opposition to its direct effec
 In the case of stability, the indirect effects are strong enough to override the direct effects, producing a qualitatively different prediction of how consumer-resource systems will respond to temperaure.
 %The increase in stability with the temperature-size rule stimulates the tantalizing possibility that its existence is adaptive, although obviously much more careful thought is needed here.
 
+In the supplementary \texttt{Mathematica} file we explore how the strength of the temperature-size response $\beta_C = \beta_R = \beta$ affects our predictions. 
+We find that the qualitatively different predictions for the biomass ratio and stability at higher temperatures hold for $\beta\geq0.02$.
+The biomass ratio begins to increase with temperature around $\beta\sim0.03$.
+Larger temperature-size responses cause both the biomass ratio and stability to increase faster with temperature (and decrease faster with declining temperature).
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Exploring asymmetric temperature-size responses}
 
@@ -244,13 +252,17 @@ At high resource biomass a type-II functional response implies that the rate of 
 Both capture rate and handling time are known to depend on temperature and body mass.
 In particular, \cite{Rall2012} argue that capture rate scales like $b(T, M_R, M_C) = b_0 M_R^{b_R} M_C^{b_C} \exp(-E_b/(k T))$ and handling time like $h(T, M_R, M_C) = h_0 M_R^{h_R} M_C^{h_C} \exp(-E_h/(k T))$.
 Using these dependencies, along with the parameter values given in \cite{Rall2012}, we can again plot $B_{CR}$, $\hat{C}:\hat{R}$, and stability as functions of temperature, this time with a type-II functional response (see supplementary \texttt{Mathematica} file).
-The main conclusions are: in comparison to a type-I functional response, a type-II functional response i) makes the $B_{CR}$ slopes more positive (increasing the response to temperature when $E_S > E_B$), ii) makes equilibrium biomass ratios increase with temperature, and iii) makes stability increase more quickly with temperature.
+The main conclusions are: in comparison to a type-I functional response, a type-II functional response i) makes the $B_{CR}$ slopes more positive (increasing the response to temperature when $E_S > E_B$), ii) makes equilibrium biomass ratios increase with temperature, and iii) makes stability increase more quickly with temperature, despite the fact that a type-II functional response decreases stability at our reference temperature (15$^\circ$C, i.e., without a direct or indirect temperature response).
 Thus, a type-II functional response, like asymmetric temperature-size responses, causes our predictions to vary further from those without the temperature-size rule (\cite{Gilbert2014}).
 
 As an aside, in this analysis we set $b_0$ to give $f(R) = 0.1$ at 15$^\circ C$, to remain consistent with \cite{Gilbert2014}.
 This leaves $h_0$ as a free parameter. 
 However, this free parameter only influences the results in the case of stability.
 When $h_0$ is small enough to allow a stable coexistence equilibrium (roughly $h_0 <10^{-12}$) we find that stability increases exponentially with temperature (see supplementary \texttt{Mathematica} for details).
+Thus, even though a type-II functional response decreases stability at the reference temperature (because of the lags induced by handling time), stability is increased at higher temperatures. 
+The increased stability at higher temperatures with a type-II functional response is caused by the temperature dependence of the capture rate (\cite{Rall2012}), which differs from the temperature dependence of the type-I attack rate (\cite{Gilbert2014}).
+Giving capture rate the same temperature dependence as attack rate (\cite{Gilbert2014}), with a small enough handling time at the reference tempeture ($h_0 <\sim10^{-13}$) stability still increases exponentially with temperature, from the reference temperature, but the square root in the expression now allows the temperature dependence of other parameters to slow and revert this increase at higher temperatures.
+Larger handling times prevent the exponential increase in stability with temperature, and the increase in handling time with temperature can even cause stability to decrease with temperature (see supplementary \texttt{Mathematica} file for details). 
 
 \cite{Rall2012} complied a large database on capture rates and handling times and compared the data to their theoretical predictions.
 They found that capture rate and handling time responded less strongly to temperature than expected (see their Figure 2a,d).
@@ -288,5 +300,96 @@ However, the amount by which the shape of the functional response is adjusted by
 \bibliographystyle{amnatnat}
 \bibliography{library}
 
+
+\newpage{}
+
+%%%%%%%%%%%%%%%%%%%%%
+% Figure legends
+%%%%%%%%%%%%%%%%%%%%%
+% Please include all figure legends in a separate section at the end of 
+% the document. If you use \label{} and \ref{} to refer to your figures,
+% these can still work even if you comment out the %includegraphics{}
+% line. If you refer to figures as "fig. 1" (etc.) manually, the
+% legends can also appear simply as paragraphs.
+% For submission, please upload the relevant figure files separately to
+% Editorial Manager; Editorial Manager should insert them at the end of
+% the PDF automatically.
+% Figure legends should be concise, though they can be longer than the
+% titles of tables.
+
+\section*{Figure legends}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}[!ht]
+%\centering
+%\includegraphics[width=0.5\linewidth]{BCRAllTempDep}
+%\includegraphics[width=0.5\linewidth]{CtoRAllTempDep}
+%\includegraphics[width=0.5\linewidth]{StabilityAllTempDep}
+%\caption{
+%$B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius).
+%Rate-constants (e.g., $r_0$) were chosen to make $r = 2$, $K = 100$, $a = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ (as in \cite{Gilbert2014}).
+%Other parameters: $E_B = 0.32$ (solid black), $E_B = 0.9$ (dashed and gray), $E_S = 0.9$ (solid black and gray), $E_S = 0.32$ (dashed), $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$.  
+%}
+%\label{AllTempDep}
+%\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\linewidth]{BCRAllTempMassDep}
+\includegraphics[width=0.5\linewidth]{CtoRAllTempMassDep}
+\includegraphics[width=0.5\linewidth]{StabilityAllTempMassDep}
+\caption{
+$B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius) with (red) and without (black) mass dependencies and the temperature-size rule.
+Rate-constants (e.g., $r_0$) were chosen to make $r = 2$, $K = 100$, $a = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ (as in \cite{Gilbert2014}).
+Other parameters as in \cite{Gilbert2014,DeLong2015}: $E_B = 0.32$ (solid dark), $E_B = 0.9$ (dashed and solid light), $E_S = 0.9$ (solid), $E_S = 0.32$ (dashed), $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $\beta_i = 0.02$ (red), $\beta_i = 0$ (black).  
+}
+\label{AllTempMassDep}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\linewidth]{BCRAllTempMassDepAsymm}
+\includegraphics[width=0.5\linewidth]{CtoRAllTempMassDepAsymm}
+\includegraphics[width=0.5\linewidth]{StabilityAllTempMassDepAsymm}
+\caption{
+SUPPLEMENTARY FIGURE.
+$B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius) without the temperature-size rule (black) with a symmetric temperature-size rule (red) and with an asymmetric temperature-size rule (blue).
+Rate-constants (e.g., $r_0$) were chosen to make $r = 2$, $K = 100$, $a = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ (as in \cite{Gilbert2014}).
+Other parameters as in \cite{Gilbert2014,DeLong2015,Forster2012}: $E_B = 0.32$ (solid dark), $E_B = 0.9$ (dashed and solid light), $E_S = 0.9$ (solid), $E_S = 0.32$ (dashed), $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $\beta_i = 0$ (black) , $\beta_i = 0.02$ (red), $\beta_R = 0.02$ and $\beta_C = 0.04$ (blue).  
+}
+\label{AllTempMassDepAsymm}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\linewidth]{BCRTypeII}
+\includegraphics[width=0.5\linewidth]{CtoRTypeII}
+\includegraphics[width=0.5\linewidth]{StabilityTypeII}
+\caption{
+SUPPLEMENTARY FIGURE.
+$B_{CR}$, equilibrium consumer to resource biomass ratio $\hat{C}:\hat{R}$, and stability of the coexistence equilibrium as functions of temperature $T$ (plotted in Celsius) with (red and blue) and without (black) mass dependencies and the temperature-size rule.
+Type-II functional response in blue.
+Rate-constants (e.g., $r_0$) were chosen to make $r = 2$, $K = 100$, $f(R) = 0.1$, $m = 0.6$, and $e = 0.15$ at 15$^\circ C$ (as in \cite{Gilbert2014}).
+Other parameters as in \cite{Gilbert2014,DeLong2015,Rall2012}: $E_B = 0.32$ (solid dark), $E_B = 0.9$ (dashed and solid light), $E_S = 0.9$ (solid), $E_S = 0.32$ (dashed), $E_m = 0.65$, $E_{\nu,i} = 0.46$, $\nu_{0,i} = 1$, $\kappa = -0.81$, $\alpha = 1$, $\epsilon = -0.5$, $\mu = -0.29$, $\rho = -0.81$, $\beta_i = 0.02$ (red and blue), $\beta_i = 0$ (black), $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$, $h_0 = 10^{-13}$.  
+}
+\label{TypeII}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\linewidth]{CaptureTSRAsymm}
+\includegraphics[width=0.5\linewidth]{HandlingTSRAsymm}
+\caption{
+SUPPLEMENTARY FIGURE.
+The sensitivity of capture rate and handling time to temperature with (blue) and without (black) the temperature-size rule.
+Plotted are (A) $\log(b/b0)$ and (B) $\log(h/h0)$.
+Parameters as in \cite{Rall2012}: $a_C = 1/4+2/3$, $a_R = 1/3$, $h_C = -2/3$, $h_R = 0.5$, $E_a = 0.65$, $E_h = -0.65$.
+}
+\label{CaptureTimeT}
+\end{figure}
 
 \end{document}
