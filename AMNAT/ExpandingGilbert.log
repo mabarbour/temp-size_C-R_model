@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  10 JUN 2016 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.30)  15 JUN 2016 09:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,58 +457,6 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf.sty
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
 (./ExpandingGilbert.aux
 
 LaTeX Warning: Label `TypeII' multiply defined.
@@ -516,19 +464,19 @@ LaTeX Warning: Label `TypeII' multiply defined.
 )
 \openout1 = `ExpandingGilbert.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 44.
 
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
@@ -546,25 +494,73 @@ File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 \MPnumerator=\count112
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 45.
 
- (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlzplm.fd
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 46.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 46.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 45.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 46.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 46.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -577,19 +573,19 @@ LaTeX Warning: No \author given.
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/pplx/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/pplx/b/n' tried instead on input line 78.
+(Font)              Font shape `OT1/pplx/b/n' tried instead on input line 79.
 
 [2]
-Overfull \hbox (30.48952pt too wide) in paragraph at lines 130--134
+Overfull \hbox (30.48952pt too wide) in paragraph at lines 131--135
 []\OT1/pplx/m/n/10.95 The frequently-observed neg-a-tive re-la-tion-ship be-twe
 en tem-per-a-ture and body size, the temperature-
  []
 
 [3]
 LaTeX Font Info:    Font shape `OT1/pplx/bx/n' in size <12> not available
-(Font)              Font shape `OT1/pplx/b/n' tried instead on input line 147.
+(Font)              Font shape `OT1/pplx/b/n' tried instead on input line 148.
  [4] [5] [6] [7] [8]
-Overfull \hbox (31.27719pt too wide) in paragraph at lines 249--254
+Overfull \hbox (31.27719pt too wide) in paragraph at lines 250--255
 \OT1/pplx/m/n/10.95 par-tic-u-lar, Rall et al. (2012) ar-gue that cap-ture rate
  scales like $\OML/zplm/m/it/10.95 b\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 T
 \OT1/pplx/m/n/10.95 , \OML/zplm/m/it/10.95 M[]\OT1/pplx/m/n/10.95 , \OML/zplm/m
@@ -603,38 +599,38 @@ Overfull \hbox (31.27719pt too wide) in paragraph at lines 249--254
 File: BCRAllTempMassDep.pdf Graphic file (type pdf)
 
 <use BCRAllTempMassDep.pdf>
-Package pdftex.def Info: BCRAllTempMassDep.pdf used on input line 336.
+Package pdftex.def Info: BCRAllTempMassDep.pdf used on input line 337.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <CtoRAllTempMassDep.pdf, id=52, 652.4375pt x 412.18794pt>
 File: CtoRAllTempMassDep.pdf Graphic file (type pdf)
 
 <use CtoRAllTempMassDep.pdf>
-Package pdftex.def Info: CtoRAllTempMassDep.pdf used on input line 337.
+Package pdftex.def Info: CtoRAllTempMassDep.pdf used on input line 338.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <StabilityAllTempMassDep.pdf, id=53, 652.4375pt x 412.18794pt>
 File: StabilityAllTempMassDep.pdf Graphic file (type pdf)
 
 <use StabilityAllTempMassDep.pdf>
-Package pdftex.def Info: StabilityAllTempMassDep.pdf used on input line 338.
+Package pdftex.def Info: StabilityAllTempMassDep.pdf used on input line 339.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 
-LaTeX Warning: Float too large for page by 1.60004pt on input line 345.
+LaTeX Warning: Float too large for page by 1.60004pt on input line 346.
 
 <BCRAllTempMassDepAsymm.pdf, id=54, 652.4375pt x 412.18794pt>
 File: BCRAllTempMassDepAsymm.pdf Graphic file (type pdf)
 
 <use BCRAllTempMassDepAsymm.pdf>
-Package pdftex.def Info: BCRAllTempMassDepAsymm.pdf used on input line 350.
+Package pdftex.def Info: BCRAllTempMassDepAsymm.pdf used on input line 351.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <CtoRAllTempMassDepAsymm.pdf, id=55, 652.4375pt x 412.18794pt>
 File: CtoRAllTempMassDepAsymm.pdf Graphic file (type pdf)
 
 <use CtoRAllTempMassDepAsymm.pdf>
-Package pdftex.def Info: CtoRAllTempMassDepAsymm.pdf used on input line 351.
+Package pdftex.def Info: CtoRAllTempMassDepAsymm.pdf used on input line 352.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <StabilityAllTempMassDepAsymm.pdf, id=56, 652.4375pt x 412.18794pt>
@@ -642,46 +638,46 @@ File: StabilityAllTempMassDepAsymm.pdf Graphic file (type pdf)
 
 <use StabilityAllTempMassDepAsymm.pdf>
 Package pdftex.def Info: StabilityAllTempMassDepAsymm.pdf used on input line 35
-2.
+3.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 
-LaTeX Warning: Float too large for page by 47.83997pt on input line 360.
+LaTeX Warning: Float too large for page by 47.83997pt on input line 361.
 
 <BCRTypeII.pdf, id=57, 652.4375pt x 412.18794pt>
 File: BCRTypeII.pdf Graphic file (type pdf)
  <use BCRTypeII.pdf>
-Package pdftex.def Info: BCRTypeII.pdf used on input line 365.
+Package pdftex.def Info: BCRTypeII.pdf used on input line 366.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <CtoRTypeII.pdf, id=58, 652.4375pt x 412.18794pt>
 File: CtoRTypeII.pdf Graphic file (type pdf)
  <use CtoRTypeII.pdf>
-Package pdftex.def Info: CtoRTypeII.pdf used on input line 366.
+Package pdftex.def Info: CtoRTypeII.pdf used on input line 367.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <StabilityTypeII.pdf, id=59, 652.4375pt x 412.18794pt>
 File: StabilityTypeII.pdf Graphic file (type pdf)
 
 <use StabilityTypeII.pdf>
-Package pdftex.def Info: StabilityTypeII.pdf used on input line 367.
+Package pdftex.def Info: StabilityTypeII.pdf used on input line 368.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 
-LaTeX Warning: Float too large for page by 46.9455pt on input line 376.
+LaTeX Warning: Float too large for page by 46.9455pt on input line 377.
 
 <CaptureTSRAsymm.pdf, id=60, 652.4375pt x 412.18794pt>
 File: CaptureTSRAsymm.pdf Graphic file (type pdf)
 
 <use CaptureTSRAsymm.pdf>
-Package pdftex.def Info: CaptureTSRAsymm.pdf used on input line 381.
+Package pdftex.def Info: CaptureTSRAsymm.pdf used on input line 382.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
 
 <HandlingTSRAsymm.pdf, id=61, 652.4375pt x 412.18794pt>
 File: HandlingTSRAsymm.pdf Graphic file (type pdf)
 
 <use HandlingTSRAsymm.pdf>
-Package pdftex.def Info: HandlingTSRAsymm.pdf used on input line 382.
+Package pdftex.def Info: HandlingTSRAsymm.pdf used on input line 383.
 (pdftex.def)             Requested size: 234.8775pt x 148.38754pt.
  [13] [14 <./BCRAllTempMassDep.pdf> <./CtoRAllTempMassDep.pdf> <./StabilityAllT
 empMassDep.pdf>] [15 <./BCRAllTempMassDepAsymm.pdf> <./CtoRAllTempMassDepAsymm.
@@ -693,13 +689,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3250 strings out of 493033
- 43586 string characters out of 6134139
- 109403 words of memory out of 5000000
- 6687 multiletter control sequences out of 15000+600000
+ 3244 strings out of 493033
+ 43391 string characters out of 6134139
+ 109456 words of memory out of 5000000
+ 6683 multiletter control sequences out of 15000+600000
  34877 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,32p,1105b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,32p,1105b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -712,7 +708,7 @@ exmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2013/texmf
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on ExpandingGilbert.pdf (17 pages, 408778 bytes).
+Output written on ExpandingGilbert.pdf (17 pages, 408762 bytes).
 PDF statistics:
  258 PDF objects out of 1000 (max. 8388607)
  207 compressed objects within 3 object streams
